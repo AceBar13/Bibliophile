@@ -4,16 +4,10 @@
      flex-direction: column;
     }
 
-.header-title{
+    .header-title{
 
-     font-size:  4.2 rem;
-     color: #000;
-     
-}
-.header-text{
-    margin-top: 1.8rem;
-    margin-bottom: 2.8rem;
-    opacity: 0.8;
-    max-width: 770px;
-    color: #000;
-}
+        font-size: 3rem;
+        color: #000;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+   }

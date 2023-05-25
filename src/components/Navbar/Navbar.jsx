@@ -3,13 +3,16 @@ import { Link } from 'react-router-dom';
 import "./Navbar.css"
 import logoImg from "../../images/icons8-book-64.png";
 import {HiOutlineMenuAlt3} from "react-icons/hi";
+import {CgShoppingCart} from "react-icons/cg";
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     const handleNavbar = () => setToggleMenu(!toggleMenu);
   
     return (
+        
       <nav className='navbar' id = "navbar">
+
         <div className='container navbar-content flex'>
           <div className='brand-and-toggler flex flex-sb'>
             <Link to = "/" className='navbar-brand flex'>
@@ -39,6 +42,13 @@ const Navbar = () => {
             <li className='nav-item'>
               <Link to = "Contact Us" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Contact Us</Link>
             </li>
+            <li className='nav-item'>
+              <Link to = "Sign Up" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Sign Up</Link>
+            </li>
+            
+           
+            
+            
           </ul>
         </div>
       </div>

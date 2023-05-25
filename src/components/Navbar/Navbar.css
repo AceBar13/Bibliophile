@@ -1,22 +1,28 @@
 .navbar{
-    padding: 1.8rem 0;
+    padding: 0.5rem  ;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
 }
+
 .navbar-brand{
-    width: 100px;
+    width: 50px;
     
-      
+        
 }
 .navbar-brand span{
-    margin-left: 0.2rem;
+    margin-left: 0.5rem;
+    
     
 }
 .brand-and-toggler{
     width: 100%;
+   
 }
+
 .navbar-content{
     display: flex;
     width: 100%;
+  
 }
 .navbar-toggler-btn{
     transition: var(--transition);
@@ -40,6 +46,7 @@
 }
 .nav-item{
     margin-bottom: 1.4rem;
+    
 }
 .nav-link{
     transition: var(--transition);
@@ -67,9 +74,10 @@
     }
     .nav-link{
         color: var(--black-color);
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         font-weight: 500!important;
         opacity: 0.8;
+       
     }
     .navbar-nav{
         display: flex;
