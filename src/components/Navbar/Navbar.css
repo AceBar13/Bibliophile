@@ -49,10 +49,11 @@
     
 }
 
+/*
 .nav-link{
     transition: var(--transition);
 }
-
+*/
 
 .nav-link:hover{
     color: var(--purple-color);
