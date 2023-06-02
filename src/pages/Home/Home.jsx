@@ -7,7 +7,7 @@ const Home = () => {
     return (
         
         <main> 
-            <Header />
+             <Header/>
             <Outlet />
         </main>
         

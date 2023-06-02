@@ -46,6 +46,7 @@
 }
 .nav-item{
     margin-bottom: 1.4rem;
+<<<<<<< HEAD
   
 }
 
@@ -55,6 +56,14 @@
 }
 */
 
+=======
+    color: black;
+    
+}
+/* .nav-link{
+    transition: var(--transition);
+} */
+>>>>>>> aceena
 .nav-link:hover{
     color: var(--purple-color);
 }
