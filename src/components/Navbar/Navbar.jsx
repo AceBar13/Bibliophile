@@ -31,19 +31,19 @@ const Navbar = () => {
         <div className={toggleMenu ? "navbar-collapse show-navbar-collapse" : "navbar-collapse"}>
           <ul className = "navbar-nav">
             <li className='nav-item'>
-              <Link to = "/" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Home</Link>
+              <Link to = "/" className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Home</Link>
             </li>
             <li className='nav-item'>
-              <Link to = "/category" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Category</Link>
+              <Link to = "/category" className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Category</Link>
             </li>
             <li className='nav-item'>
-              <Link to = "/collections" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Collections</Link>
+              <Link to = "/collections" className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Collections</Link>
             </li>
             <li className='nav-item'>
-              <Link to = "/contact Us" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Contact Us</Link>
+              <Link to = "/contact Us" className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Contact Us</Link>
             </li>
             <li className='nav-item'>
-              <Link to = "Sign Up" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Sign Up</Link>
+              <Link to = "Sign Up" className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Sign Up</Link>
             </li>
             
            
