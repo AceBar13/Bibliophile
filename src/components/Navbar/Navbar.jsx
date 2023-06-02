@@ -31,10 +31,12 @@ const Navbar = () => {
         <div className={toggleMenu ? "navbar-collapse show-navbar-collapse" : "navbar-collapse"}>
           <ul className = "navbar-nav">
             <li className='nav-item'>
+
               <Link to = '/' className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Home</Link>
             </li>
             <li className='nav-item'>
               <Link to = '/category' className='nav-link text-uppercase fs-22 fw-6 ls-1'>Category</Link>
+
             </li>
             <li className='nav-item'>
               <Link to = "/collections" className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Collections</Link>

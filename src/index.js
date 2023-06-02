@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import '../src/components/Navbar/Navbar.css';
+
 
 
 import './index.css';
@@ -22,9 +24,10 @@ root.render(
      <Routes>
 
         <Route path = "/" element = {<Home />}>
-            <Route path = "about" element = {<About />} />
-                 <Route path = "book" element = {<BookList />} />
-                      <Route path = "book/:id" element = {<BookDetails />} />
+        <Route path = "about" element = {<About />} />
+        <Route path = "book" element = {<BookList />} />
+        <Route path = "book/:id" element = {<BookDetails />} />
+
   
       </Route>
      </Routes>

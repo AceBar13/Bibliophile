@@ -49,9 +49,14 @@
     color: black;
     
 }
-/* .nav-link{
+
+
+.nav-link{
     transition: var(--transition);
-} */
+}
+
+
+
 .nav-link:hover{
     color: var(--purple-color);
 }

@@ -16,11 +16,18 @@ function App() {
         <Route path="/" element={<Home />} />;
         <Route path="/category" element={<Category />} />;
         <Route path="/collections" element={<Collections />} />;
+
         <Route path="/contactus" element={<Contactus />} />;     
     </Routes>
     </BrowserRouter>
     </>
+
+     
+         
+    
+
+
+
     );
 }
-
 export default  App;
