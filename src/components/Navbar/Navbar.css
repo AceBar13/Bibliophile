@@ -46,11 +46,12 @@
 }
 .nav-item{
     margin-bottom: 1.4rem;
+    color: black;
     
 }
-.nav-link{
+/* .nav-link{
     transition: var(--transition);
-}
+} */
 .nav-link:hover{
     color: var(--purple-color);
 }

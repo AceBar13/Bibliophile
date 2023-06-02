@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import{
-  BrowserRouter, Routes, Route
-}
-from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import '../src/components/Navbar/Navbar.css';
 
 
 import './index.css';
@@ -18,7 +17,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  
  <BrowserRouter>
+
+<Navbar/>
      <Routes>
+
         <Route path = "/" element = {<Home />}>
             <Route path = "about" element = {<About />} />
                  <Route path = "book" element = {<BookList />} />
