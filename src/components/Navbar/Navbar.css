@@ -48,9 +48,12 @@
     margin-bottom: 1.4rem;
     
 }
+
 .nav-link{
     transition: var(--transition);
 }
+
+
 .nav-link:hover{
     color: var(--purple-color);
 }

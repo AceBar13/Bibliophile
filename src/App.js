@@ -19,19 +19,11 @@ function App() {
         <Route path="/category" element={<Category />} />;
         <Route path="/collections" element={<Collections />} />;
         <Route path="/contactus" element={<Contactus />} />;
-        
-       
-    </Routes>
-
-    </Router>
-
-
-   
-
+         
+    </Routes> 
+     </Router>
 </div>
-
 
     );
 }
-
 export default  App;
