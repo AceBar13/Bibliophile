@@ -1,15 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-<<<<<<< HEAD
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
-import '../src/components/Navbar/Navbar.css';
-=======
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import '../src/components/Navbar/Navbar.css';
 
->>>>>>> aceena
 
 import './index.css';
 import Home from "./pages/Home/Home";
@@ -23,13 +17,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  
  <BrowserRouter>
-<<<<<<< HEAD
- 
- <Navbar/>
-=======
 
 <Navbar/>
->>>>>>> aceena
      <Routes>
 
         <Route path = "/" element = {<Home />}>

@@ -1,8 +1,8 @@
 import './App.css';
-import { BrowserRouter } from "react-router-dom";
-import { Route, Routes } from "react-router-dom";
+
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Home from "./routes/Home";
-import Category from "./routes/Category";
+import Category from './pages/Category/Category';
 import Collections from "./routes/Collections";
 import Contactus from "./routes/Contactus";
 
