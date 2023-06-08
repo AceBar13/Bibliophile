@@ -1,14 +1,12 @@
 
 
 
-
-
 const Category = () => {
     return (
 
         <>
   
-        <h1> Category     </h1>
+        <h1> Different types of books available   </h1>
         </>
     );
 }

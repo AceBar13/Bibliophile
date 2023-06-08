@@ -1,12 +1,13 @@
 
-
+import './Contactus.css';
 
 const Collections = () => {
     return (
 
         <>
   
-        <h1> Contacts   </h1>
+        <h1> Know more about us </h1>
+        
         </>
     );
 }

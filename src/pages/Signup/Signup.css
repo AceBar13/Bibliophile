@@ -29,10 +29,8 @@ input{
     flex-direction: column-reverse;
 }
 
-.checkbox{
 
-    align-items: center;
-}
+
 .signup_button{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 1rem;
