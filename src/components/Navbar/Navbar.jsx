@@ -40,10 +40,10 @@ const Navbar = () => {
               <Link to = "/collections" className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Collections</Link>
             </li>
             <li className='nav-item'>
-              <Link to = "/contact Us" className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Contact Us</Link>
+              <Link to = "/contactus " className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Contactus</Link>
             </li>
             <li className='nav-item'>
-              <Link to = "Sign Up" className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Sign Up</Link>
+              <Link to = "Signup" className='nav-link text-uppercase  fs-22 fw-6 ls-1'>Signup</Link>
             </li>
             
            
