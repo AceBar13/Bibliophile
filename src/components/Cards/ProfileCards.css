@@ -1,0 +1,18 @@
+.prof-card-cont{
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238, 238, 238);
+    margin-right: 40px;
+    padding: 15px;
+}
+.prof-details-cont{
+    display: flex;
+    flex-direction: row;
+    row-gap: 20rem;
+}
+
+.details-cont{
+    margin-left: 10px;
+    padding: 5px;
+}

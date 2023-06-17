@@ -1,0 +1,91 @@
+.inv-cont{
+    margin-left: 20px;
+    margin-top: 15px;
+   
+}
+.text-search-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inv-cards-cont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+   
+}
+.inv-search-box{
+    margin-right: 100px;
+    border: 1px solid black;
+}
+.inv-search-side-button{
+  
+    margin-right: 30px;
+    font-size: large;
+}
+.inv-side-box{
+    display: flex;
+    flex-direction: row;
+   
+}
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+} 
+.model-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+.lab{
+    padding: 5px;
+}
+
+.inv-input{
+    margin-left: 20px;
+    border: 1px solid black;
+}
+.package-button{
+    height: 30px;
+    font-size: medium;
+    background-color: cadetblue;
+    margin-top: 2px;
+}
